@@ -16,10 +16,6 @@
     font-size: 20px;
 }
 
-.mark {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ff87b5 50%);
-}
-
 #selfie{
     width:250px;
     /*width:100%;
@@ -40,6 +36,7 @@
 }
 
 .about-content{
+    font-family:Roboto Mono;
     margin: auto;
     width:50%;
     display:grid;
@@ -48,8 +45,16 @@
 
 .skills{
     text-align: center;
+    
 }
 
 .skills img{ 
     width:80px;
+    padding-left:20px;
+    transition: 0.3s;
+    padding-right:20px;
+}
+
+.skills img:hover{
+    transform: rotate(-15deg);
 }

@@ -1,5 +1,26 @@
 .contact{
+    position: relative;
+    overflow: hidden;
+
     margin:auto;
-    width:50%;
-    color:white;
+    width:100%;
+    color:black;
+    text-align: center;
+    background-color: white;
 }
+
+.links img{
+    width:50px;
+    transition: 0.3s;
+    padding:10px;
+}
+
+.links img:hover{
+    transform: rotate(-15deg);
+}
+
+.contact button{
+    background-color: #ff87b5;
+    border: 1px solid #ff87b5;
+}
+

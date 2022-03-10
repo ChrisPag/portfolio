@@ -12,7 +12,7 @@ function About() {
       <p className="header" id="about"><span className="mark">About</span></p>
       
       <div className="about-content">
-        <img src={selfie} id="selfie"></img>
+        <img alt="selfie" src={selfie} id="selfie"></img>
         <p className="blurb">
         I have a passion for creating new things and building meaningful 
         projects. The entire process from just having an idea, to having 
@@ -27,11 +27,11 @@ function About() {
       </div>
       <div className="skills">
         <p className="header">SKILLS</p>
-        <img src={html5Logo}></img>
-        <img src={css3Logo}></img>
-        <img src={jsLogo}></img>
-        <img src={reactLogo}></img>
-        <img src={sassLogo}></img>
+        <img alt="html5 logo"src={html5Logo}></img>
+        <img alt="css3 logo" src={css3Logo}></img>
+        <img alt="javascript logo" src={jsLogo}></img>
+        <img alt="react logo" src={reactLogo}></img>
+        <img alt="sass logo" src={sassLogo}></img>
       </div>
     </div>
   );
