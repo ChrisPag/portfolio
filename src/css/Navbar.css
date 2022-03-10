@@ -1,0 +1,55 @@
+/* NAVIGATION */
+.navbar{
+    padding-top:20px;
+    padding-bottom:20px;
+    right:50px;
+    position:absolute;
+}
+
+.wrapper{
+    display:flex;
+    transition:margin .5s;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left:25px;
+    transition: 0.3s;
+}
+
+.minlinks{
+    overflow:hidden;
+}
+
+.navbar a:hover span {
+    color:#000000;
+}
+
+.navbar a:hover{
+    color:#000000;
+}
+
+#menu-icon{
+    right:0;
+    transition:color .3s;
+    color:white;
+}
+
+#menu-icon:hover{
+    color:#000000;
+}
+
+
+.navbar span{
+    font-weight:bold;
+}
+
+.links img{
+    width:50px;
+}
+
+.links{
+    margin:auto;
+    width:100%;
+}

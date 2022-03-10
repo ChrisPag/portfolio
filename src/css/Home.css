@@ -1,0 +1,17 @@
+.home{
+    margin:auto;
+    width:50%;
+    margin-top:250px;
+    height: 90vh;
+    color:white;
+    /*position:relative;*/
+}
+
+.home button{
+    position:absolute;
+    bottom:150px;
+}
+
+#downArrow{
+    margin-bottom:-3px;
+}
