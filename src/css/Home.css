@@ -10,6 +10,9 @@
 .home button{
     position:absolute;
     bottom:150px;
+
+    border: 1px solid white;
+    color:white;
 }
 
 #downArrow{

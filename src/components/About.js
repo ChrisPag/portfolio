@@ -5,6 +5,7 @@ import css3Logo from '../img/css3-logo.png';
 import jsLogo from '../img/javascript-logo.png';
 import reactLogo from '../img/react-logo.png';
 import sassLogo from '../img/sass-logo.png';
+import restLogo from '../img/rest-logo.png';
 
 function About() {
   return (
@@ -25,6 +26,7 @@ function About() {
         with the right company.
         </p>
       </div>
+
       <p className="header">SKILLS</p>
       <div className="skills">
         <div>
@@ -46,6 +48,10 @@ function About() {
         <div>
           <img alt="sass logo" src={sassLogo}></img>
           <p>SASS</p>
+        </div>
+        <div>
+          <img alt="api logo" src={restLogo}></img>
+          <p>REST APIs</p>
         </div>
       </div>
     </div>

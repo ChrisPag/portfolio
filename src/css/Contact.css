@@ -1,18 +1,58 @@
 .contact{
-    position: relative;
-    overflow: hidden;
-
+    padding-top:50px;
     margin:auto;
     width:100%;
     color:black;
     text-align: center;
     background-color: white;
+    padding-bottom:50px;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+    
+}
+
+.contact .header{
+    margin-top:-10px;
+}
+
+/*.contact:before {
+    left:0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: skewY(3deg);
+}*/
+
+.contact:after {
+    left:0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: left top;
+    transform: skewY(-3deg);
+}
+
+.container p{
+    margin-top:80px;
+    font-size:20px;
+    font-family:Roboto Mono;
 }
 
 .links img{
     width:50px;
     transition: 0.3s;
     padding:10px;
+    margin-top:50px;
 }
 
 .links img:hover{
@@ -22,5 +62,6 @@
 .contact button{
     background-color: #ff87b5;
     border: 1px solid #ff87b5;
+    margin-top:50px;
 }
 

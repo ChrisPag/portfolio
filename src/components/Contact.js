@@ -1,6 +1,6 @@
+import '../css/Contact.css';
 import githubLogo from '../img/github-icon.png';
 import linkedinLogo from '../img/linkedin-icon.png';
-import '../css/Contact.css';
 
 function Contact() {
     return (
