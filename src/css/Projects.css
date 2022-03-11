@@ -10,7 +10,7 @@
     
 }
 
-.project-cont img{
+.element img{
     width:100%;
     min-width:400px;
     max-width:500px;
@@ -21,10 +21,24 @@
     margin-bottom:30px;
 }
 
+.element a{
+    color:#ff87b5;
+}
+
 .project-cont{
-    width:70%;
-    margin-left:15%;
+    width:100%;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(510px, 1fr));
 }
 
+.static{
+    position:absolute;
+}
+
+.static:hover{
+    opacity:0;
+}
+
+#bakery img{
+    height:374px;
+}
