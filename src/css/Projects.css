@@ -4,6 +4,27 @@
     color:black;
     background-color: white;
 
-    position: relative;
+    
     overflow: hidden;
+    padding-bottom:10px;
+    
 }
+
+.project-cont img{
+    width:100%;
+    min-width:400px;
+    max-width:500px;
+    outline:1px solid#ddd;
+    outline-offset:5px;
+    border-radius:20px;
+    place-self: center;
+    margin-bottom:30px;
+}
+
+.project-cont{
+    width:70%;
+    margin-left:15%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(510px, 1fr));
+}
+

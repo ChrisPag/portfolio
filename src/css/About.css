@@ -11,23 +11,17 @@
 }
 
 .blurb{
-    /*margin-left:50%;*/
     margin-top:100px;
     font-size: 20px;
 }
 
 #selfie{
     width:250px;
-    /*width:100%;
-    max-width:250px;
-    min-width:200px;
-
-    box-shadow: -30px 0  #ff87b5;
-    border-radius:250px;*/
     margin:auto;
     
     box-shadow: -7px -7px 0 0px rgb(255, 255, 255), -7px -7px 0 2px #ff87b5;
     border-radius:250px;
+    transition: 0.3s;
 }
 
 .about-content p{
@@ -45,14 +39,14 @@
 
 .skills{
     text-align: center;
-    
+    display:grid;
+    grid-template-columns:100px 10% 10% 10% 10%;
+    justify-content: center;
 }
 
 .skills img{ 
-    width:80px;
-    padding-left:20px;
     transition: 0.3s;
-    padding-right:20px;
+    height:65px;
 }
 
 .skills img:hover{

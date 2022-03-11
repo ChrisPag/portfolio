@@ -25,13 +25,28 @@ function About() {
         with the right company.
         </p>
       </div>
+      <p className="header">SKILLS</p>
       <div className="skills">
-        <p className="header">SKILLS</p>
-        <img alt="html5 logo"src={html5Logo}></img>
-        <img alt="css3 logo" src={css3Logo}></img>
-        <img alt="javascript logo" src={jsLogo}></img>
-        <img alt="react logo" src={reactLogo}></img>
-        <img alt="sass logo" src={sassLogo}></img>
+        <div>
+          <img alt="html5 logo"src={html5Logo}></img>
+          <p>HTML</p>
+        </div>
+        <div>
+          <img alt="css3 logo" src={css3Logo}></img>
+          <p>CSS</p>
+        </div>
+        <div>
+          <img alt="javascript logo" src={jsLogo}></img>
+          <p>JavaScript</p>
+        </div>
+        <div>
+          <img alt="react logo" src={reactLogo}></img>
+          <p>React</p>
+        </div>
+        <div>
+          <img alt="sass logo" src={sassLogo}></img>
+          <p>SASS</p>
+        </div>
       </div>
     </div>
   );

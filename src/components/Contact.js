@@ -9,7 +9,7 @@ function Contact() {
         <div className="container">
           <p>Get in touch with me!</p>
           <a href="mailto:christinabpaguirigan@gmail.com"><button>
-            Let's talk
+            Let's talk 
           </button></a>
       
           <div className="links">
