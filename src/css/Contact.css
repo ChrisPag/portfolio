@@ -16,7 +16,7 @@
     margin-top:-10px;
 }
 
-/*.contact:before {
+.contact:before {
     left:0;
     content: '';
     width: 100%;
@@ -27,7 +27,7 @@
     bottom: 0;
     transform-origin: left bottom;
     transform: skewY(3deg);
-}*/
+}
 
 .contact:after {
     left:0;

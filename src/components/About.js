@@ -14,17 +14,20 @@ function About() {
       
       <div className="about-content">
         <img alt="selfie" src={selfie} id="selfie"></img>
-        <p className="blurb">
-        I have a passion for creating new things and building meaningful 
+        <div className="blurb">
+        <p>
+        I have a passion for creating meaningful 
         projects. The entire process from just having an idea, to having 
         something that I can share with others never gets old.
-        Whether it's a web application, crocheted sweater, or a pencil portrait, 
-        I've got you. 
-
-        I will be graduating at with my B.A. in IT at York University in 
-        June 2022. I'm excited to continue refining my skills
-        with the right company.
+        Whether it's a web application, a crocheted sweater, or even a
+        pencil portrait, I've got you.</p> 
+        <p>
+        I will be graduating with my B.A. in IT at York University in 
+        June 2022. Due to my time in university and my personal projects,
+        I have gained a solid understanding in various web technologies.
+        I'm excited to continue refining my skills  with the right company.
         </p>
+        </div>
       </div>
 
       <p className="header">SKILLS</p>

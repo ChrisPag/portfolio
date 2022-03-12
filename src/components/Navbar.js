@@ -28,8 +28,8 @@ function Navbar() {
       <div className="navbar">
         {isDesktop ?( 
         <div className="navlink">
+          <a href="#projects">Projects</a>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </div>): (
           <p onClick={menuClick}><FaBars id="menu-icon" /></p>
@@ -38,10 +38,10 @@ function Navbar() {
         {!isDesktop && showMin && 
         <div className="minlinks">
           <p>
-          <a className="hoverEffect" href="#about">About</a>
+          <a className="hoverEffect" href="#projects">Projects</a>
           </p>
           <p>
-          <a className="hoverEffect" href="#projects">Projects</a>
+          <a className="hoverEffect" href="#about">About</a>
           </p>
           <p>
           <a className="hoverEffect" href="#contact">Contact</a>
