@@ -19,8 +19,8 @@
     background: inherit;
     z-index: -1;
     bottom: 0;
-    transform-origin: right top;
-    transform: skewY(3deg);
+    transform-origin: left top;
+    transform: skewY(-3deg);
 }
 
 .projects p{text-align: center;}
@@ -34,12 +34,12 @@
     width:100%;
     min-width:400px;
     max-width:500px;
-    /*outline:1px solid rgb(255, 255, 255);
-    outline-offset:5px;*/
     border-radius:20px;
     place-self: center;
     margin-top:30px;
     height:374px;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .projectTitle{

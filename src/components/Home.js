@@ -12,7 +12,7 @@ function Home() {
           I'm a front end web developer near Toronto, ON.
         </p>
 
-        <a href="#about"><button>View my work <AiOutlineArrowDown id="downArrow"/></button></a>
+        <a href="#projects"><button>View my work <AiOutlineArrowDown id="downArrow"/></button></a>
       </div>
 
       

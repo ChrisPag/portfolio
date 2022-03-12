@@ -2,6 +2,7 @@
     margin:auto;
     width:100%;
     padding-bottom:100px;
+    padding-top:50px;
     color:black;
     background:rgb(255, 255, 255);
 
@@ -18,8 +19,8 @@
     background: inherit;
     z-index: -1;
     bottom: 0;
-    transform-origin: left top;
-    transform: skewY(-3deg);
+    transform-origin: right top;
+    transform: skewY(3deg);
 }
 
 #about{
