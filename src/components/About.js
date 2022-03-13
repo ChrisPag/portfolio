@@ -18,7 +18,7 @@ function About() {
         <div className="blurb">
           <p>
           Hi again! I'm Christina, a passionate front end web developer 
-          aspiring to help being your vision to life. I have a knack for 
+          aspiring to help bring your vision to life. I have a knack for 
           creating meaningful and effective web applications to fit whatever
           it is you need to drive your vision forward. 
           </p> 
