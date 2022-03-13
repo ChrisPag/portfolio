@@ -18,8 +18,8 @@ function Projects() {
             <img className="gif" src={spacegif} alt="spacestagram app gif"></img></a>
             <p className="projectTitle">Spacestagram</p>
             <p>React | API</p>
-            <a href="https://github.com/ChrisPag/chrispag.github.io"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
-            <a href="https://chrispag.github.io/"target="_blank" rel="noreferrer">Live <FiExternalLink/></a>
+            <p><a href="https://github.com/ChrisPag/chrispag.github.io"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
+            <a href="https://chrispag.github.io/"target="_blank" rel="noreferrer">Live <FiExternalLink/></a></p>
           </div>
           <div className="element">
             <a href="https://github.com/ChrisPag/bakery-site"><img className="static" src={bakery} alt="smitty's sweets app"></img>
@@ -34,8 +34,8 @@ function Projects() {
             <img className="gif" src={versegif} alt="moodscape app gif"></img></a>
             <p className="projectTitle">Verse</p>
             <p>React | API | Heroku | Firebase</p>
-            <a href="https://github.com/Obuya/ACCA"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
-            <a href="https://devpost.com/software/verse-45dnra"target="_blank" rel="noreferrer">DevPost <FiExternalLink/></a>
+            <p><a href="https://github.com/Obuya/ACCA"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
+            <a href="https://devpost.com/software/verse-45dnra"target="_blank" rel="noreferrer">DevPost <FiExternalLink/></a></p>
           </div>
 
           <div className="element">

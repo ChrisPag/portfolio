@@ -9,7 +9,8 @@
 
 .home button{
     position:absolute;
-    bottom:150px;
+    /*bottom:150px;*/
+    margin-top:15vh;
 
     border: 1px solid white;
     color:white;

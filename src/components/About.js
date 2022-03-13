@@ -12,21 +12,32 @@ function About() {
     <div className="about">
       <p className="header" id="about"><span className="mark">About</span></p>
       
-      <div className="about-content">
+      <div className="about-content"> 
         <img alt="selfie" src={selfie} id="selfie"></img>
+        
         <div className="blurb">
-        <p>
-        I have a passion for creating meaningful 
-        projects. The entire process from just having an idea, to having 
-        something that I can share with others never gets old.
-        Whether it's a web application, a crocheted sweater, or even a
-        pencil portrait, I've got you.</p> 
-        <p>
-        I will be graduating with my B.A. in IT at York University in 
-        June 2022. Due to my time in university and my personal projects,
-        I have gained a solid understanding in various web technologies.
-        I'm excited to continue refining my skills  with the right company.
-        </p>
+          <p>
+          Hi again! I'm Christina, a passionate front end web developer 
+          aspiring to help being your vision to life. I have a knack for 
+          creating meaningful and effective web applications to fit whatever
+          it is you need to drive your vision forward. 
+          </p> 
+          <p>
+          I am currently finishing up my B.A. in IT at York University and
+          will soon be graduating in June 2022. As a result of my studies
+          as well as my personal projects, I have accumulated
+          a strong understanding of various web technologies. 
+          I'm excited to keep refining my skills upon graduation and apply
+          myself full time as a front end web developer.
+          </p>
+          <p id="hobbies">
+            {/*The entire process from just having an idea, to having 
+          something that I can share with others never gets old.
+          
+            Other than coding, I enjoy crocheting, drawing portraits, and
+            playing on my Switch (Animal Crossing and Pokemon games are my 
+            favourite!).*/}
+          </p>
         </div>
       </div>
 
