@@ -1,10 +1,15 @@
 .home{
     margin:auto;
     width:50%;
-    margin-top:250px;
+    /*margin-top:250px;*/
+    
     height: 90vh;
     color:white;
     /*position:relative;*/
+}
+
+.home .description{
+    margin-top:30vh;
 }
 
 .home button{
