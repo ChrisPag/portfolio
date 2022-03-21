@@ -28,7 +28,7 @@ function About() {
           as well as my personal projects, I have accumulated
           a strong understanding of various web technologies. 
           I'm excited to keep refining my skills upon graduation and apply
-          myself full time as a front end web developer.
+          myself full time.
           </p>
           <p id="hobbies">
             {/*The entire process from just having an idea, to having 
