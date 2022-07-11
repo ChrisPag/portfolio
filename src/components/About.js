@@ -23,10 +23,9 @@ function About() {
           it is you need to drive your vision forward. 
           </p> 
           <p>
-          I am currently finishing up my B.A. in IT at York University and
-          will soon be graduating in June 2022. As a result of my studies
-          as well as my personal projects, I have accumulated
-          a strong understanding of various web technologies. 
+          I recently finished up my B.A. in IT at York University in June 2022. 
+          As a result of my studies as well as my personal projects, I have 
+          accumulated a strong understanding of various web technologies. 
           I'm excited to keep refining my skills upon graduation and apply
           myself full time.
           </p>
