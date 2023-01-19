@@ -24,6 +24,9 @@ function About() {
           </p> 
           <p>
           I recently finished up my B.A. in IT at York University in June 2022. 
+          I am currently doing a one year graduate certificate in Computer Applications 
+          Development at Conestoga College and I expect to graduate in January 2024.
+
           As a result of my studies as well as my personal projects, I have 
           accumulated a strong understanding of various web technologies. 
           I'm excited to keep refining my skills upon graduation and apply

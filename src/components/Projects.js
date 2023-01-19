@@ -19,9 +19,9 @@ function Projects() {
         <div className="element">
           <a href="https://github.com/ChrisPag/moodboard-project"><img src={moodgrid} alt="moodscape app"></img></a>
           <p className="projectTitle">Moodscape</p>
-          <p>React | API | Heroku</p>
+          <p>React | API | Render</p>
           <p><a href="https://github.com/ChrisPag/moodboard-project"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
-          <a href="http://mood-scape.herokuapp.com/"target="_blank" rel="noreferrer">Live <FiExternalLink/></a></p>
+          <a href="https://mood-scape.onrender.com"target="_blank" rel="noreferrer">Live <FiExternalLink/></a></p>
         </div> 
 
         <div className="element">
