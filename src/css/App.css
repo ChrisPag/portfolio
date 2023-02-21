@@ -5,6 +5,9 @@
     scroll-behavior: smooth !important;
 }
 
+body{
+    width:100%;
+}
 .App{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -74,11 +77,16 @@ a:hover button{
 }
 
 button:hover{
-    /*bottom:205px;*/
     color:black;
     background-color:white;
 }
 
 .mark {
     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ff87b5 50%);
+}
+
+@media only screen and (max-width:320px){
+    .App{
+        background-size: 150% 150%;
+    }
 }

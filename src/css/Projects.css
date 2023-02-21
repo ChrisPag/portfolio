@@ -32,16 +32,12 @@
 }
 
 .element img{
-    width:100%;
-    min-width:300px;
-    max-width:500px;
     border-radius:20px;
-    place-self: center;
+    /*place-self: center;*/
     margin-top:30px;
-    height:374px;
-
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 
 .projectTitle{
     font-weight: bold;
@@ -61,7 +57,7 @@
 
 .project-cont{
     width:80%;
-    margin-left:10%;
+    
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(515px, 1fr));
 }
@@ -77,4 +73,43 @@
 
 .static:hover{
     opacity:0;
+}
+
+@media only screen and (min-width:600px){
+    .project-cont{
+        margin-left:10%;
+    }
+
+    .element img{
+        min-width:300px;
+        max-width:500px;
+        height:374px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .projects{
+        justify-content: center;
+    }
+    .gif{
+        display: none;
+    }
+
+    .element img{
+        position:static;
+        width:80%;
+    }
+
+    .static:hover{
+        opacity:100;
+    }
+
+    .project-cont{
+        display:inline;
+    }
+
+    .element{
+        
+        display:inline;
+    }
 }
