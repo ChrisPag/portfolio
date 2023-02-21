@@ -89,4 +89,8 @@ button:hover{
     .App{
         background-size: 150% 150%;
     }
+
+    button{
+        margin-right:15%;
+    }
 }
