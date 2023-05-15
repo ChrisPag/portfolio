@@ -4,8 +4,10 @@ import html5Logo from '../img/html5-logo.png';
 import css3Logo from '../img/css3-logo.png';
 import jsLogo from '../img/javascript-logo.png';
 import reactLogo from '../img/react-logo.png';
-import sassLogo from '../img/sass-logo.png';
+import expressLogo from '../img/expressjs-logo.png';
 import restLogo from '../img/rest-logo.png';
+import nodeLogo from '../img/node-logo.png';
+import mongoLogo from '../img/mongodb-logo.png';
 
 function About() {
   return (
@@ -63,12 +65,20 @@ function About() {
           <p>React</p>
         </div>
         <div>
-          <img alt="sass logo" src={sassLogo}></img>
-          <p>SASS</p>
-        </div>
-        <div>
           <img alt="api logo" src={restLogo}></img>
           <p>REST APIs</p>
+        </div>
+        <div>
+          <img alt="mongo logo" src={mongoLogo}></img>
+          <p>MongoDB</p>
+        </div>
+        <div>
+          <img alt="express logo" src={expressLogo}></img>
+          <p>Express</p>
+        </div>
+        <div>
+          <img alt="node logo" src={nodeLogo}></img>
+          <p>Node</p>
         </div>
       </div>
     </div>

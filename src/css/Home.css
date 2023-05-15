@@ -15,19 +15,22 @@
 
 .description{
     left:0;
+    display:flex;
+    flex-direction: column;
 }
 
 .home button{
-    position:absolute;
-    /*bottom:150px;*/
-    margin-top:15vh;
-
+    margin-top:10vh;
     border: 1px solid white;
     color:white;
 }
 
 #downArrow{
     margin-bottom:-3px;
+}
+
+.change-text{
+    text-decoration: underline dotted white;
 }
 
 @media only screen and (max-width:320px){

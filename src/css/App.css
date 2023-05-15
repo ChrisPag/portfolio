@@ -71,14 +71,12 @@ button{
 
 button:hover{
     box-shadow: inset 400px 0 0 0 #ffffff;
+    color:black;
+    background-color:white;
+    cursor:pointer;
 }
 a:hover button{
     color:black;
-}
-
-button:hover{
-    color:black;
-    background-color:white;
 }
 
 .mark {

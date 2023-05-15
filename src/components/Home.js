@@ -1,5 +1,6 @@
 import {AiOutlineArrowDown} from 'react-icons/ai';
 import '../css/Home.css';
+import Typed from "react-typed"
 
 function Home() {
   return (
@@ -8,11 +9,26 @@ function Home() {
         <p className="medium-text">Hi, I'm</p>
         <p className="large-text">Christina Paguirigan</p>
 
-        <p className="medium-text">
-          I'm a front end web developer near Toronto, ON.
+        <p className="medium-text word">
+          {/*I'm a web developer near Kitchener-Waterloo.*/}
+          I'm a&nbsp;
+          <Typed 
+          strings={[
+                " Web Developer",
+                " Fall 2023 Co-op Student",
+                " Hamster Mom"
+              ]}
+              typeSpeed={50}
+              backSpeed={50}
+              loop
+              className="change-text"
+        />
         </p>
-
+        
+        <div>
         <a href="#projects"><button>View my work <AiOutlineArrowDown id="downArrow"/></button></a>
+        </div>
+        
       </div>
 
       

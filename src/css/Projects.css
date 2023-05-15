@@ -33,11 +33,14 @@
 
 .element img{
     border-radius:20px;
-    /*place-self: center;*/
+    transition:0.3s;
     margin-top:30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.element img:hover{
+    transform:scale(1.05);
+}
 
 .projectTitle{
     font-weight: bold;
@@ -67,14 +70,6 @@
     grid-template-columns: repeat(auto-fit, minmax(515px, 1fr));
 }
 
-.static{
-    position:absolute;
-}
-
-.static:hover{
-    opacity:0;
-}
-
 @media only screen and (min-width:600px){
     .project-cont{
         margin-left:10%;
@@ -95,21 +90,17 @@
         display: none;
     }
 
+    .element{
+        display:inline;
+    }
+
     .element img{
         position:static;
         width:80%;
         margin-left:5%;
     }
 
-    .static:hover{
-        opacity:100;
-    }
-
     .project-cont{
-        display:inline;
-    }
-
-    .element{
         display:inline;
     }
 }
