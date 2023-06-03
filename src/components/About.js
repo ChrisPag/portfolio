@@ -19,21 +19,21 @@ function About() {
         
         <div className="blurb">
           <p>
-          Hi again! I'm Christina, a passionate front end web developer 
+          Hi again! I'm Christina, a passionate web developer 
           aspiring to help bring your vision to life. I have a knack for 
           creating meaningful and effective web applications to fit whatever
           it is you need to drive your vision forward. 
           </p> 
           <p>
-          I recently finished up my B.A. in IT at York University in June 2022. 
-          I am currently doing a one year graduate certificate in Computer Applications 
-          Development at Conestoga College and I expect to graduate in January 2024.
+          I recently finished up my B.A. in IT at York University in June 2022.
+          I am currently completing a one year graduate certificate in Computer Applications 
+          Development (Co-op Stream) at Conestoga College and I expect to graduate in December 2023.
           </p>
           <p>
           As a result of my studies as well as my personal projects, I have 
           accumulated a strong understanding of various web technologies. 
-          I'm excited to keep refining my skills upon graduation and apply
-          myself full time.
+          I'm excited to keep refining my skills and apply
+          myself full time in a 4 month developer co-op position.
           </p>
           <p id="hobbies">
             {/*The entire process from just having an idea, to having 

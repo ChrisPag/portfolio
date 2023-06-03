@@ -16,7 +16,7 @@ function Home() {
           strings={[
                 " Web Developer",
                 " Fall 2023 Co-op Student",
-                " Hamster Mom"
+                " IT Graduate"
               ]}
               typeSpeed={50}
               backSpeed={50}
