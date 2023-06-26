@@ -28,7 +28,7 @@ function Projects() {
           <a href="https://github.com/Piyush-Bhor/CC_SenecaHackathon"><img src={dishsavvy} alt="dishsavvy app"></img></a>
           <p className="projectTitle">DishSavvy</p>
           <p>HTML | CSS | JavaScript | EJS | Node | Express | MongoDB</p>
-          <a href="https://github.com/Piyush-Bhor/CC_SenecaHackathon"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
+          <p><a href="https://github.com/Piyush-Bhor/CC_SenecaHackathon"target="_blank" rel="noreferrer">Github <FiExternalLink/></a></p>
         </div>
 
         <div className="element">
@@ -40,7 +40,7 @@ function Projects() {
         </div>
 
         <div className="element">
-          <a href="https://github.com/Obuya/ACCA"><img src={verse} alt="moodscape app"></img></a>
+          <a href="https://github.com/Obuya/ACCA"><img src={verse} alt="verse app"></img></a>
           <p className="projectTitle">Verse</p>
           <p>React | API | Heroku | Firebase</p>
           <p><a href="https://github.com/Obuya/ACCA"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
