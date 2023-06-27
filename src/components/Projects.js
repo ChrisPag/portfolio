@@ -5,6 +5,7 @@ import bakery from '../img/bakery-static.gif';
 import bakerygif from '../img/bakery-demo.gif';
 import versegif from '../img/verse.gif';
 import verse from '../img/verse-static.gif';
+import magnamarket from '../img/magnamarket.png';
 import moodgrid from '../img/grid.png';
 import dishsavvy from '../img/dishsavvy-static.png';
 import {FiExternalLink} from 'react-icons/fi';
@@ -40,11 +41,11 @@ function Projects() {
         </div>
 
         <div className="element">
-          <a href="https://github.com/Obuya/ACCA"><img src={verse} alt="verse app"></img></a>
-          <p className="projectTitle">Verse</p>
-          <p>React | API | Heroku | Firebase</p>
-          <p><a href="https://github.com/Obuya/ACCA"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
-          <a href="https://devpost.com/software/verse-45dnra"target="_blank" rel="noreferrer">DevPost <FiExternalLink/></a></p>
+          <a href="https://magnamarket.onrender.com/"><img src={magnamarket} alt="magnamarket website"></img></a>
+          <p className="projectTitle">Magna Market</p>
+          <p>HTML | CSS | JavaScript</p>
+          <p><a href="https://github.com/ChrisPag/magnamarket"target="_blank" rel="noreferrer">Github <FiExternalLink/></a>
+          <a href="https://magnamarket.onrender.com/"target="_blank" rel="noreferrer">Live <FiExternalLink/></a></p>
         </div> 
       </div>
     </div>
